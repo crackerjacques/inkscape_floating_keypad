@@ -19,12 +19,13 @@ Currently works only with Linux
 pip install inkex pyqt5 pyautogui
 sudo apt install wmctrl xdotool
 ```
-
+# Install
 ```
 git clone https://github.com/crackerjacques/inkscape_floating_keypad.git
 mkdir -p  ~/.config/inkscape/extensions # Only if it is not already there, which is often the case.
 cp -r ./inkscape_floating_keypad/floating_keypad ~/.config/inkscape/extensions #
 ```
 
-Then You can find
+Relaunch Inkscape.
+Then You can find Floating Keypad
 Inkscape -> Extension -> Utillity -> Floating Keypad
