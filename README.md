@@ -5,8 +5,11 @@ Stylus shortcuts for tablets with insufficient buttons for Inkscape
 
 Plasma Wayland / Ubuntu 24.04 on Raspberry Pi 5
 
+Plasma X11 / Ubuntu 24.04
+
 Hyprland / Arch Linux
 
+Currently works only with Linux
 
 # floating keypad for Inkscape
 Stylus shortcuts for tablets with few buttons
