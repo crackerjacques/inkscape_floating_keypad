@@ -1,2 +1,27 @@
 # inkscape_floating_keypad
+Stylus shortcuts for tablets with insufficient buttons for Inkscape
+
+# Tested Environments.
+
+Plasma Wayland / Ubuntu 24.04 on Raspberry Pi 5
+Hyprland / Arch Linux
+
+
+# floating keypad for Inkscape
 Stylus shortcuts for tablets with few buttons
+<img width="453" alt="Screenshot_20250606_191751" src="https://github.com/user-attachments/assets/07a77355-dbac-415d-a173-93fe141b6f9e" />
+
+# Prepare
+```
+pip install inkex pyqt5 pyautogui
+sudo apt install wmctrl xdotool
+```
+
+```
+git clone https://github.com/crackerjacques/inkscape_floating_keypad.git
+mkdir -p  ~/.config/inkscape/extensions
+cp -r ./inkscape_floating_keypad/floating_keypad
+```
+
+Then You can find
+Inkscape -> Extension -> Utillity -> Floating Keypad
