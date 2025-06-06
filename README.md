@@ -19,6 +19,12 @@ Currently works only with Linux
 pip install inkex pyqt5 pyautogui
 sudo apt install wmctrl xdotool
 ```
+Arch Linux
+```
+sudo pacman -S l wmctrl xdotool
+pip install inkex pyqt5 pyautogui
+```
+
 # Install
 ```
 git clone https://github.com/crackerjacques/inkscape_floating_keypad.git
