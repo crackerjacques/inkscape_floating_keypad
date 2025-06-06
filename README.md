@@ -12,7 +12,6 @@ Hyprland / Arch Linux
 Currently works only with Linux
 
 # floating keypad for Inkscape
-Stylus shortcuts for tablets with few buttons
 <img width="453" alt="Screenshot_20250606_191751" src="https://github.com/user-attachments/assets/07a77355-dbac-415d-a173-93fe141b6f9e" />
 
 # Prepare
