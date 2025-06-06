@@ -4,6 +4,7 @@ Stylus shortcuts for tablets with insufficient buttons for Inkscape
 # Tested Environments.
 
 Plasma Wayland / Ubuntu 24.04 on Raspberry Pi 5
+
 Hyprland / Arch Linux
 
 
