@@ -14,6 +14,8 @@ Hyprland / Arch Linux
 Currently works only with Linux
 
 # Prepare
+
+Ubuntu/Debian/RaspiOS
 ```
 pip install inkex pyqt5 pyautogui
 sudo apt install wmctrl xdotool
