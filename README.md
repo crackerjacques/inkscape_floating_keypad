@@ -8,9 +8,8 @@ Stylus shortcuts for tablets with insufficient buttons for Inkscape
 
 Plasma Wayland / Ubuntu 24.04 on Raspberry Pi 5
 
-Plasma X11 / Ubuntu 24.04
-
-Hyprland / Arch Linux
+Plasma X11 / Ubuntu 24.04  
+Hyprland / Arch Linux  
 
 Currently works only with Linux
 
@@ -32,6 +31,6 @@ mkdir -p  ~/.config/inkscape/extensions # Only if it is not already there, which
 cp -r ./inkscape_floating_keypad/floating_keypad ~/.config/inkscape/extensions #
 ```
 
-Relaunch Inkscape.
-Then You can find Floating Keypad
+Relaunch Inkscape.  
+Then You can find Floating Keypad.  
 Inkscape -> Extension -> Utillity -> Floating Keypad
