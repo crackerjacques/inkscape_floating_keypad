@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import inkex
-import subprocess
 import os
 import sys
 
@@ -17,22 +16,14 @@ class FloatingKeypadLauncher(inkex.EffectExtension):
             return
         
         try:
-            if sys.platform.startswith('linux'):
-                subprocess.Popen([sys.executable, keypad_script], 
-                               start_new_session=True,
-                               stdout=subprocess.DEVNULL,
-                               stderr=subprocess.DEVNULL)
-            elif sys.platform == 'darwin':
-                subprocess.Popen([sys.executable, keypad_script],
-                               stdout=subprocess.DEVNULL,
-                               stderr=subprocess.DEVNULL)
-            elif sys.platform == 'win32':
-                subprocess.Popen([sys.executable, keypad_script],
-                               creationflags=subprocess.CREATE_NEW_PROCESS_GROUP,
-                               stdout=subprocess.DEVNULL,
-                               stderr=subprocess.DEVNULL)
+            command = f'nohup "{sys.executable}" "{keypad_script}" > /dev/null 2>&1 &'
+            os.system(command)
         except:
-            pass
+            # Fallback
+            try:
+                os.system(f'"{sys.executable}" "{keypad_script}" &')
+            except:
+                pass
 
 if __name__ == '__main__':
     FloatingKeypadLauncher().run()
