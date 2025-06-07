@@ -1,5 +1,8 @@
-# inkscape_floating_keypad
+# Floating Keypad
 Stylus shortcuts for tablets with insufficient buttons for Inkscape
+<img width="680" alt="Screenshot_20250607_164244" src="https://github.com/user-attachments/assets/8c89c9d6-7b41-4753-ae8e-d997a9c854eb" />
+
+
 
 # Tested Environments.
 
@@ -10,9 +13,6 @@ Plasma X11 / Ubuntu 24.04
 Hyprland / Arch Linux
 
 Currently works only with Linux
-
-# floating keypad for Inkscape
-<img width="453" alt="Screenshot_20250606_191751" src="https://github.com/user-attachments/assets/07a77355-dbac-415d-a173-93fe141b6f9e" />
 
 # Prepare
 ```
