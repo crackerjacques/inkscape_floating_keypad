@@ -21,7 +21,7 @@ sudo apt install wmctrl xdotool
 ```
 Arch Linux
 ```
-sudo pacman -S l wmctrl xdotool
+sudo pacman -S wmctrl xdotool
 pip install inkex pyqt5 pyautogui
 ```
 
