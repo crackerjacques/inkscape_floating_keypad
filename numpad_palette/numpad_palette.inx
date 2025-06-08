@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>Numpad Palette</name>
+    <id>org.inkscape.filter.numpad_palette</id>
+    
+    <effect>
+        <object-type>all</object-type>
+        <effects-menu>
+            <submenu name="Utilities"/>
+        </effects-menu>
+    </effect>
+    
+    <script>
+        <command location="inx" interpreter="python">numpad_palette_launcher.py</command>
+    </script>
+</inkscape-extension>

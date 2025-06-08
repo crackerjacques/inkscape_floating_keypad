@@ -1,0 +1,302 @@
+# Numpad Palette Configuration
+# Configure key mappings for shortcut mode
+# Each key setting: label (max 5 chars), key (key to send), color (hex color code)
+
+# Default numpad configuration
+'7':
+  label: '7'
+  key: '7'
+  color: '#4a90e2'
+
+'8':
+  label: '8'
+  key: '8'
+  color: '#4a90e2'
+
+'9':
+  label: '9'
+  key: '9'
+  color: '#4a90e2'
+
+'4':
+  label: '4'
+  key: '4'
+  color: '#4a90e2'
+
+'5':
+  label: '5'
+  key: '5'
+  color: '#4a90e2'
+
+'6':
+  label: '6'
+  key: '6'
+  color: '#4a90e2'
+
+'1':
+  label: '1'
+  key: '1'
+  color: '#4a90e2'
+
+'2':
+  label: '2'
+  key: '2'
+  color: '#4a90e2'
+
+'3':
+  label: '3'
+  key: '3'
+  color: '#4a90e2'
+
+'0':
+  label: '0'
+  key: '0'
+  color: '#4a90e2'
+
+'return':
+  label: 'Enter'
+  key: 'Return'
+  color: '#44aa44'
+
+'backspace':
+  label: 'BS'
+  key: 'BackSpace'
+  color: '#ff8800'
+
+'delete':
+  label: 'Del'
+  key: 'Delete'
+  color: '#ff8800'
+
+# === INKSCAPE TOOL SHORTCUTS ===
+# Uncomment and modify these examples for Inkscape workflow
+
+# Drawing Tools
+# '7':
+#   label: 'Rect'      # Rectangle tool
+#   key: 'r'
+#   color: '#4a90e2'
+#
+# '8':
+#   label: 'Ellip'     # Ellipse tool
+#   key: 'e'
+#   color: '#4a90e2'
+#
+# '9':
+#   label: 'Text'      # Text tool
+#   key: 't'
+#   color: '#4a90e2'
+#
+# '4':
+#   label: 'Bezir'     # Bezier/Pen tool
+#   key: 'b'
+#   color: '#4a90e2'
+#
+# '5':
+#   label: 'Node'      # Node edit tool
+#   key: 'n'
+#   color: '#4a90e2'
+#
+# '6':
+#   label: 'Zoom'      # Zoom tool
+#   key: 'z'
+#   color: '#4a90e2'
+#
+# '1':
+#   label: 'Selct'     # Selection tool
+#   key: 's'
+#   color: '#4a90e2'
+#
+# '2':
+#   label: 'Hand'      # Pan tool (space)
+#   key: 'space'
+#   color: '#4a90e2'
+#
+# '3':
+#   label: 'Grad'      # Gradient tool
+#   key: 'g'
+#   color: '#4a90e2'
+#
+# '0':
+#   label: 'Fit'       # Fit page in window
+#   key: '4'
+#   color: '#44aa44'
+
+# === EDIT SHORTCUTS WITH CTRL ===
+# Common editing operations with Ctrl combinations
+
+# 'return':
+#   label: 'Save'      # Save document
+#   key: 'ctrl+s'
+#   color: '#44aa44'
+#
+# 'backspace':
+#   label: 'Undo'      # Undo last action
+#   key: 'ctrl+z'
+#   color: '#ff8800'
+#
+# 'delete':
+#   label: 'Redo'      # Redo last action
+#   key: 'ctrl+y'
+#   color: '#ff8800'
+#
+# '7':
+#   label: 'Copy'      # Copy selection
+#   key: 'ctrl+c'
+#   color: '#888888'
+#
+# '8':
+#   label: 'Paste'     # Paste clipboard
+#   key: 'ctrl+v'
+#   color: '#888888'
+#
+# '9':
+#   label: 'Cut'       # Cut selection
+#   key: 'ctrl+x'
+#   color: '#888888'
+#
+# '4':
+#   label: 'Group'     # Group objects
+#   key: 'ctrl+g'
+#   color: '#888888'
+#
+# '5':
+#   label: 'Ungrp'     # Ungroup objects
+#   key: 'ctrl+shift+g'
+#   color: '#888888'
+#
+# '6':
+#   label: 'Dup'       # Duplicate object
+#   key: 'ctrl+d'
+#   color: '#888888'
+#
+# '1':
+#   label: 'All'       # Select all
+#   key: 'ctrl+a'
+#   color: '#888888'
+#
+# '2':
+#   label: 'None'      # Deselect all
+#   key: 'ctrl+shift+a'
+#   color: '#888888'
+#
+# '3':
+#   label: 'Find'      # Find/Replace
+#   key: 'ctrl+f'
+#   color: '#888888'
+
+# === OBJECT MANIPULATION ===
+# Transform and arrange objects
+
+# '1':
+#   label: 'FlipH'     # Flip horizontal
+#   key: 'h'
+#   color: '#4aa444'
+#
+# '2':
+#   label: 'FlipV'     # Flip vertical
+#   key: 'v'
+#   color: '#4aa444'
+#
+# '3':
+#   label: 'Raise'     # Raise object
+#   key: 'Page_Up'
+#   color: '#4aa444'
+#
+# '4':
+#   label: 'Lower'     # Lower object
+#   key: 'Page_Down'
+#   color: '#4aa444'
+#
+# '5':
+#   label: 'Front'     # Bring to front
+#   key: 'Home'
+#   color: '#4aa444'
+#
+# '6':
+#   label: 'Back'      # Send to back
+#   key: 'End'
+#   color: '#4aa444'
+
+# === VIEW AND NAVIGATION ===
+# Zoom and navigation shortcuts
+
+# '7':
+#   label: 'ZoomI'     # Zoom in
+#   key: 'plus'
+#   color: '#44aa44'
+#
+# '8':
+#   label: 'ZoomO'     # Zoom out
+#   key: 'minus'
+#   color: '#44aa44'
+#
+# '9':
+#   label: 'Zoom1'     # Zoom 100%
+#   key: '1'
+#   color: '#44aa44'
+#
+# '0':
+#   label: 'ZoomF'     # Zoom to fit selection
+#   key: '3'
+#   color: '#44aa44'
+#
+# 'return':
+#   label: 'ZoomP'     # Zoom to fit page
+#   key: '4'
+#   color: '#44aa44'
+
+# === DIALOG SHORTCUTS ===
+# Open various dialogs and panels
+
+# '1':
+#   label: 'Fill'      # Fill and Stroke dialog
+#   key: 'ctrl+shift+f'
+#   color: '#ff4444'
+#
+# '2':
+#   label: 'Align'     # Align and Distribute
+#   key: 'ctrl+shift+a'
+#   color: '#ff4444'
+#
+# '3':
+#   label: 'Layer'     # Layers panel
+#   key: 'ctrl+shift+l'
+#   color: '#ff4444'
+#
+# '4':
+#   label: 'Prefs'     # Preferences
+#   key: 'ctrl+shift+p'
+#   color: '#ff4444'
+#
+# '5':
+#   label: 'DocPr'     # Document Properties
+#   key: 'ctrl+shift+d'
+#   color: '#ff4444'
+
+# === AVAILABLE COLORS ===
+# Color options for button styling
+# '#4a90e2' - Blue (default for tools)
+# '#44aa44' - Green (for view/navigation)
+# '#4aa444' - Dark green (for object manipulation)
+# '#ff4444' - Red (for dialogs/settings)
+# '#ff8800' - Orange (for edit operations)
+# '#888888' - Gray (for clipboard operations)
+
+# === KEY SPECIFICATION GUIDE ===
+# Single keys: 'a', 'b', 'r', 'e', 't', 's', 'z', 'space', 'Tab'
+# Special keys: 'Return', 'BackSpace', 'Delete', 'Escape'
+# Arrow keys: 'Up', 'Down', 'Left', 'Right'
+# Function keys: 'F1', 'F2', ... 'F12'
+# Page keys: 'Home', 'End', 'Page_Up', 'Page_Down'
+# Number keys: '0', '1', '2', ... '9'
+# Symbol keys: 'plus', 'minus', 'equal', 'comma', 'period'
+#
+# Modifier combinations:
+# Ctrl: 'ctrl+s', 'ctrl+c', 'ctrl+v', 'ctrl+z'
+# Shift: 'shift+a', 'shift+Tab'
+# Alt: 'alt+f4', 'alt+Tab'
+# Multiple modifiers: 'ctrl+shift+g', 'ctrl+alt+z', 'ctrl+shift+alt+n'
+#
+# Note: Use lowercase for letters in key combinations
+# Example: 'ctrl+shift+f' not 'Ctrl+Shift+F'
